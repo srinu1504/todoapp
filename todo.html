@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <header id="TODO_head">
+        <h1>Welcome!! Add Today Tasks</h1>
+        <form action="" id="todo_form">
+            <input
+              class="in"
+              type="text"
+              name="task_name"
+              placeholder="What's today's challenge ...."
+              autofocus
+            >
+            <button class="sbtn" type="submit">ADD TASK TODO</button>
+        </form>
+      </header>
+      <section class="container" id="main_content">
+        <ul class="status">
+          <li>
+            <span>Remaining</span>
+            <span class="count" id="remain_tasks">0</span>
+          </li>
+          <li>
+            <span>Completed</span>
+            <span class="count" id="completed_tasks">0</span>
+          </li>
+          <li>
+            <span>Total Tasks</span>
+            <span class="count" id="total_tasks">0</span>
+          </li>
+        </ul>
+        <ul id="todos">
+          <!-- <li>
+            <div>
+              <input type="checkbox" name="tasks" id="1" />
+              <span contenteditable>Task 1</span>
+            </div>
+            <button><span class="material-symbols-outlined"> close </span></button>
+          </li>
+          <li>
+            <div>
+              <input type="checkbox" name="tasks" id="1" />
+              <span contenteditable>Task 1</span>
+            </div>
+            <button><span class="material-symbols-outlined"> close </span></button>
+          </li>
+          <li class="complete">
+            <div>
+              <input type="checkbox" name="tasks" id="1" />
+              <span contenteditable>Task 1</span>
+            </div>
+            <button><span class="material-symbols-outlined"> close </span></button>
+          </li> -->
+        </ul>
+      </section>
+      <footer>Design by<b> @Natakarani Srinivasulu</b></footer>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
